@@ -1,1 +1,3 @@
-# bug-bounty
+# HyperLend Bug Bounty
+
+coming soon
