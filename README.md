@@ -1,3 +1,3 @@
 # HyperLend Bug Bounty
 
-Cantina Competition: https://cantina.xyz/competitions/21787352-de2c-4a77-af09-cc0a250d1f04
+Cantina Competition: https://cantina.xyz/competitions/cd180bb3-5d7d-46ed-8b99-d905e54a9d0b
