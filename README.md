@@ -10,4 +10,8 @@ Bug bounty rewards will be paid in USDC and vested HPL for responsible disclosur
 
 ### Scope
 
-HyperLend bug bounty covers smart contracts available at [insert link].
+HyperLend bug bounty covers smart contracts available at [insert link to mainnet addresses docs].
+
+### Contact
+
+Please send reports to: `fbslo@hyperlend.finance`
