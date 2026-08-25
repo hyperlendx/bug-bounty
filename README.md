@@ -26,3 +26,7 @@ Known commonly reported issues:
 - wHLP price oracle can serve a stale NAV as fresh - since there is no other "real-time" wHLP oracle, we rely on the accountant's value.
 - If both primary and secondary are unhealthy (or primary reverts) in DualFallbackOracle, it returns the newer data (even if it's unhealthy).
 - Any economic attack that relies on a significant price change, e.g., a fast crash causing bad debt.
+- DualFallbackOracle is not checking staleness on RatioAdapter
+- Stale oracle freezes liquidations on isolated pairs
+- repayAssetWithCollateral bypasses isRepayPaused on isolated pairs
+- globalPause on hyperlendPairDeployer is no-op
