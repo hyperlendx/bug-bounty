@@ -16,6 +16,8 @@ Update (13/3/2026): If you are submitting AI-generated reports, please at least 
 
 Please send reports to: `fbslo@hyperlend.finance`
 
+Please send all info in text or markdown format, we do not open zip/pdf/images.
+
 ---
 
 Known commonly reported issues:
