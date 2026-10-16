@@ -12,6 +12,8 @@ Update (19/5/2025): DDoS attacks on the UI/API/RPCs are not in-scope!
 
 Update (13/3/2026): If you are submitting AI-generated reports, please at least verify that the contracts you are reporting are deployed on mainnet (see the scope above) and not old deprecated code on github.
 
+For isolated markets, only critical issues (loss of user funds) are eligible for the payout.
+
 ### Contact
 
 Please send reports to: `fbslo@hyperlend.finance`
@@ -32,3 +34,6 @@ Known commonly reported issues:
 - Stale oracle freezes liquidations on isolated pairs
 - repayAssetWithCollateral bypasses isRepayPaused on isolated pairs
 - globalPause on hyperlendPairDeployer is no-op
+- Isolated pair swapper ERC20 allowances accumulateds and remains after swapper removal
+- xHYPE isolated market oracle might be temporarily stale
+- 
